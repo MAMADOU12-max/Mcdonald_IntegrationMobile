@@ -1,0 +1,22 @@
+:root{
+  box-sizing: border-box;
+}
+*{
+  box-sizing: inherit;
+}
+body {
+  border: solid 3px black;
+  border-radius: 35px;
+  min-height: 100vh;
+  padding: 20px;
+}
+#container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 25px;
+  /*padding-top: 47px;*/
+}
+#container #whatsupLeft p{
+    font-size: 1.3em;
+}
+

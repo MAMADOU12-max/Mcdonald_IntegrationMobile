@@ -1,0 +1,59 @@
+#myFooter{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 25px;
+}
+#myFooter #PopularLeft main ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+
+}
+#myFooter #PopularLeft main ul li{
+  list-style: none;
+  text-align: center;
+}
+#myFooter #PopularLeft main ul li:hover{
+  background-color: red;
+  border-radius: 10px;
+}
+#myFooter #PopularLeft main ul li .eatImg{
+  height: 68px;
+  width:  35px;
+}
+#myFooter #PopularLeft main ul li .nameEat{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+#myFooter #PopularLeft main ul li .price{
+  color: goldenrod;
+}
+#myFooter #sidebarRight{
+  display: flex;
+  flex-direction: column;
+  margin: 135px 0 0 0;
+  text-align: center;
+}
+#myFooter #sidebarRight .total{
+  font-size: 1em;
+
+}
+#myFooter #sidebarRight .priceTotal{
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-top: 5px;
+
+}
+#myFooter #sidebarRight .doIt{
+  padding: 21px 5px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+
+

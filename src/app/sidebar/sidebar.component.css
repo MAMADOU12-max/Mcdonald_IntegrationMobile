@@ -1,0 +1,52 @@
+#mySidebar{
+  padding-top: 22px;
+}
+#mySidebar .myOrder {
+  font-size: 1.2em;
+  padding-bottom: 12px;
+  font-weight: bolder;
+}
+#mySidebar .take {
+    padding-top: 10px;
+    color: dimgray;
+}
+#mySidebar main ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 7px 0 0 0;
+}
+#mySidebar main ul li{
+  list-style: none;
+  /*border-top: ridge 0.01em gray;*/
+  text-align: center;
+  margin: 15px 0 20px 0px
+}
+#mySidebar main ul li .eatImg{
+  width:29px;
+}
+#mySidebar main ul li .nameEat{
+   display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
+#mySidebar main ul li .price{
+  color: dimgray;
+}
+#mySidebar main ul li .order{
+   display: flex;
+  justify-content: center;
+  height: 19px;
+  margin-top: 6px;
+}
+#mySidebar main ul li .order button{
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+#mySidebar main ul li .order .buttonIncrease{
+   background-color: goldenrod;
+}
+#mySidebar main ul li .order .buttonDecrease{
+  border: solid 1px gray;
+}

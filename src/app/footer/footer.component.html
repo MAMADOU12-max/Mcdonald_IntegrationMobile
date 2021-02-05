@@ -1,0 +1,19 @@
+<section id="myFooter">
+    <section id="PopularLeft">
+        <h2><strong>Popular</strong></h2>
+        <main>
+            <ul>
+                <li *ngFor="let card of cards | slice: 0:6">
+                    <img class="eatImg" src="assets/icons/{{card.icon}}" alt="hot-dog">
+                    <span class="nameEat">{{card.name}}</span>
+                    <span class="price" >$ {{card.price}}</span> <br>
+                </li>
+            </ul>
+        </main>
+    </section>
+    <section id="sidebarRight">
+        <span class="total">Total</span>
+        <span class="priceTotal">$ 3.456</span>
+        <button class="doIt">Done</button>
+    </section>
+</section>

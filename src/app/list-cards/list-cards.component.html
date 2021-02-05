@@ -1,0 +1,16 @@
+<body>
+    <app-header></app-header>
+    <section id="container">
+          <section id="whatsupLeft">
+              <p><strong>Hey,</strong> <br>
+                what's up?</p>
+              <main>
+                     <app-item-card [cards]="listMenu"></app-item-card>
+              </main>
+          </section>
+           <section id="sidebarRight">
+                <app-sidebar [cards]="listMenu"></app-sidebar>
+           </section>
+    </section>
+    <app-footer [cards]="listMenu"></app-footer>
+</body>

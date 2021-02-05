@@ -1,0 +1,6 @@
+<ul >
+    <li *ngFor="let card  of cards | slice:0:6">
+        <img class="eatImg" src="assets/icons/{{card.icon}}" alt="hot-dog">
+        <p>{{card?.name}}</p>
+    </li>
+</ul>

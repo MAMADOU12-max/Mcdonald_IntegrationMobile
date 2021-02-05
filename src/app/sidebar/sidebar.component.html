@@ -1,0 +1,18 @@
+<section id="mySidebar">
+    <div class="myOrder">My Order</div>
+    <span class="take">Take Out</span>
+    <main>
+        <ul>
+            <li *ngFor="let card of cards | slice: 0: 3">
+                <img class="eatImg" src="assets/icons/french-fries.svg" alt="hot-dog">
+                <span class="nameEat">{{card.name}}</span>
+                <span class="price" >$ {{card.price}}</span> <br>
+                <div class="order">
+                   <button class="buttonDecrease">-</button>
+                   <button><strong>1</strong></button>
+                    <button class="buttonIncrease">+</button>
+                </div>
+            </li>
+        </ul>
+    </main>
+</section>
